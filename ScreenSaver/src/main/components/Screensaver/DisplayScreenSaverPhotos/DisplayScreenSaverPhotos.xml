@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component name="DisplayScreenSaverPhotos" extends="Group">
+	<interface>
+	</interface>
+	<script type="text/brightscript" uri="../DisplayScreenSaverPhotos/DisplayScreenSaverPhotos.brs" />
+	<script type="text/brightscript" uri="pkg:/components/Common/Utils.brs" />
+	<script type="text/brightscript" uri="pkg:/components/Common/DataUtils.brs" />
+	<children>
+		<Rectangle id="background" color="#000000" height="1080" width="1920" opacity="1" />
+		<Poster id="PrimaryImage" loadDisplayMode="scaleToFill" height="1080" width="1920" />
+		<Timer id="imageTimer" duration="10" repeat="true" />
+	</children>
+</component>

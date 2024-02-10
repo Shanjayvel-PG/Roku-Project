@@ -1,0 +1,18 @@
+buildDir: build
+sourceDir: src
+rokus: {
+    ultra: {
+        serial: 'X02500KDR3DJ',
+        auth: {
+            user: 'rokudev',
+            pass: '1234'
+        }
+    },
+    stick: {
+        serial: 'X02500KDR3DJ',
+        auth: {
+            user: 'rokudev',
+            pass: '1234'
+        }
+    }
+}
