@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component name="WeatherWidget" extends="Group">
+	<interface>
+		<function name="build" />
+	</interface>
+	<script type="text/brightscript" uri="../WeatherWidget/WeatherWidget.brs" />
+	<script type="text/brightscript" uri="../Common/Utils.brs" />
+	<script type="text/brightscript" uri="../Common/DataUtils.brs" />
+	<children>
+        <Rectangle id="outerRect" color="#000000" width="500" height="620" opacity="0.7" />
+		<Rectangle id="bgRectangle" translation="[10, 10]" width="480" height="600" color="#FFFFFF" opacity="0.7">
+			<Group id="wrapper">
+				<Poster id="cloudImage" width="200" height="200" />
+				<Label id="temperatureText" horizAlign="center" color="#000000" />
+				<Label id="location" horizAlign="center" color="#000000" />
+				<LayoutGroup id="bottomWrapper" itemSpacings="32" layoutDirection="horiz">
+					<LayoutGroup id="humidityWrapper" layoutDirection="horiz" itemSpacings="[16]">
+						<Poster id="humidityImage" width="60" height="60" />
+						<Label id="humidityText" height="60" vertAlign="center" color="#000000"/>
+					</LayoutGroup>
+					<LayoutGroup id="windSpeedWrapperWrapper" layoutDirection="horiz" itemSpacings="[8]">
+						<Poster id="windSpeedImage" width="60" height="60" />
+						<Label id="windSpeedText" height="60" vertAlign="center" color="#000000" />
+					</LayoutGroup>
+				</LayoutGroup>
+			</Group>
+		</Rectangle>
+	</children>
+</component>
