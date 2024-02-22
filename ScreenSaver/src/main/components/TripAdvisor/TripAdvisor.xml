@@ -1,8 +1,0 @@
-<?xml version = "1.0" encoding = "utf-8" ?> 
-<component name = "TripAdvisor" extends = "Group" >
-   
-<children >
-    <Label id="myLabel" text="Hello World!" width="1280"  height="720" horizAlign="center" vertAlign="center" />
-</children>
-<script type="text/brightscript" uri="TripAdvisor.brs" />
-</component>

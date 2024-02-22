@@ -1,7 +1,0 @@
-components: 'pkg:/components'
-manifest:
-  channelName: 'Ambition Screensaver'
-  major: '0'
-  minor: '0'
-  build: '1'
-  splash_color: '#0d1d41'
