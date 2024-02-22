@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component name="ResponseHandler" extends="Task">
-	<interface>
-		<function name="handleSuccessResponse" />
-	</interface>
-	<script type="text/brightscript" uri="../Common/Utils.brs" />
-	<script type="text/brightscript" uri="../Common/DataUtils.brs" />
-	<script type="text/brightscript" uri="ResponseHandler.brs" />
-</component>

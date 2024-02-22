@@ -1,8 +1,0 @@
-name: screensaver
-version: 0.0.1
-buildDir: build
-sourceDir: src
-flavors:
-  main:
-    src:
-      - main
