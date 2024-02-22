@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="ApiRequest" extends="Task">
+	<interface>
+		<field id="json" type="assocarray" alwaysNotify="true" />
+		<field id="errorObj" type="assocarray" alwaysNotify="true" />
+		<field id="params" type="assocarray" alwaysNotify="true" />
+		<field id="responseHandler" type="node" />
+	</interface>
+	<script type="text/brightscript" uri="ApiRequest.brs" />
+	<script type="text/brightscript" uri="../Common/Utils.brs" />
+	<script type="text/brightscript" uri="../Common/DataUtils.brs" />
+</component>

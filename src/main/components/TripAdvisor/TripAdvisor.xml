@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "utf-8" ?> 
+<component name = "TripAdvisor" extends = "Group" >
+    <script type="text/brightscript" uri="../TripAdvisor/TripAdvisor.brs" /> 
+<children >
+    <!-- <Poster id="bgImage" uri="pkg:/images/background1.jpg" height="1080" width="1920" /> -->
+    <Label id="Titlename" text="Trip Advisor" width="1280"  height="720" horizAlign="center" vertAlign="center" />
+</children>
+</component>
