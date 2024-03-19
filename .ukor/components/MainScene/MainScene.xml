@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component name="MainScene" extends="Scene" xsi:noNamespaceSchemaLocation="https://devtools.web.roku.com/schema/RokuSceneGraph.xsd">
+	<interface>
+		<field id="closeScreen" type="boolean" value="false" />
+	</interface>
+	<script type="text/brightscript" uri="MainScene.brs" />
+</component>
