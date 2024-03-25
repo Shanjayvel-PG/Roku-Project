@@ -12,6 +12,7 @@ sub build(params as object)
     parentNode = buildContentNode(photoList)
     m.photoGrid.content = parentNode
     m.photoGrid.setFocus(true)
+    print photoList
 end sub
 
 sub initSettingsPage()
